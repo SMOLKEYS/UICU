@@ -1,3 +1,4 @@
+Events.on(ClientLoadEvent,e=>{
 UnitTypes.alpha.weapons.each(s => s.shots = 20);
 UnitTypes.alpha.weapons.each(i => i.inaccuracy = 10);
 UnitTypes.alpha.weapons.get(0).bullet.speed = 6;
@@ -21,4 +22,6 @@ UnitTypes.gamma.weapons.get(0).bullet.damage = 400;
 UnitTypes.gamma.weapons.get(0).bullet.buildingDamageMultiplier = 1;
 UnitTypes.gamma.speed = 7;
 UnitTypes.gamma.buildSpeed = 10;
-UnitTypes.gamma.mineSpeed = 200:
+UnitTypes.gamma.mineSpeed = 200;
+})
+
