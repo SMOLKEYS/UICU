@@ -22,6 +22,6 @@ UnitTypes.gamma.weapons.get(0).bullet.damage = 400;
 UnitTypes.gamma.weapons.get(0).bullet.buildingDamageMultiplier = 1;
 UnitTypes.gamma.speed = 7;
 UnitTypes.gamma.buildSpeed = 10;
-UnitTypes.gamma.mineSpeed = 200;
+UnitTypes.gamma.mineSpeed = 200
 })
 
